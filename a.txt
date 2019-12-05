@@ -1,0 +1,17 @@
+git
+	git add *文件名字
+	git commit -m '描述'   
+	git resert --hard HEAD   (^上级,^^上上级)...  也可以写序列化  
+		log commit 后面的编码	
+	git log  日志
+
+
+
+	git reflog
+
+	git status  
+		查看你当前的工作状态
+
+暂存区和版本库
+	git add 就是把当前的修改添加到了暂存区里面,
+	git commit  把暂存区里的提交到版本库里
